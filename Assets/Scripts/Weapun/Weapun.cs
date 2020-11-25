@@ -2,22 +2,31 @@
 
 public class Weapun : MonoBehaviour
 {
+    public delegate void AmmoAction(int _coinCount);
+    public event AmmoAction ammoAction;
+
+    public static Weapun Singleton { get; private set; }
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
     public int AmountAmmo { get; private set; }
 
-
+    private void Awake()
+    {
+        Singleton = this;
+    }
     private void Start()
     {
-        AmountAmmo = Random.Range(0, 11);
+        AmountAmmo = Random.Range(1, 11);
+        ammoAction?.Invoke(AmountAmmo);
     }
 
-    public void Shoot()
+    public void Shoot(float angle)
     {
         if(AmmoCheck())
         {
-            Instantiate(_bullet, _targetPoint.transform.position, Quaternion.identity);
+            Instantiate(_bullet, _targetPoint.transform.position, Quaternion.Euler(new Vector3(0f,0f,angle)));
             AmountAmmo--;
+            ammoAction?.Invoke(AmountAmmo);
         }
     }
 

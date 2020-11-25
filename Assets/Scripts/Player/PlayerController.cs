@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D _boxCollider2D;
     private float _moveX = 0.0f;
     private Vector2 _direction = Vector2.zero;
+    private float _angle;
     private bool facingRight = true;
 
     private void Start()
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
         _moveX = _speed * Input.GetAxis("Horizontal");
 
         MovingCheck();
-
+        Attacing();
         _direction = new Vector2(_moveX, 0.0f);
 
         if (CheckGround() && Input.GetKeyDown(KeyCode.W))
@@ -32,6 +33,15 @@ public class PlayerController : MonoBehaviour
 
 
         Moving(_direction);
+    }
+
+    private void Attacing()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            
+            Player.Singleton.Atack(_angle);
+        }
     }
 
     private void MovingCheck()
@@ -52,12 +62,14 @@ public class PlayerController : MonoBehaviour
     }
     private void Moving(Vector2 _direction)
     {
-        if(_direction.x < 0.0f && facingRight)
+        if(_moveX > 0f && facingRight == false)
         {
+            _angle = 0f;
             Flip();
         }
-        else if(_direction.x > 0.0f && facingRight == false)
+        else if(_moveX < 0f && facingRight == true)
         {
+            _angle = 180f;
             Flip();
         }
         transform.Translate(_direction * Time.deltaTime);

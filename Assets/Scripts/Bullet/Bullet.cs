@@ -11,7 +11,7 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, 2f);
     }
 
-    private void BulletPush() => _rigidbody2D.AddForce(transform.forward * _force, ForceMode2D.Impulse);
+    private void BulletPush() => _rigidbody2D.AddForce(transform.right * _force, ForceMode2D.Impulse);
 
     public void OnCollisionEnter2D(Collision2D collision)
     {

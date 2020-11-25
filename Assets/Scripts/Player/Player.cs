@@ -15,16 +15,11 @@ public class Player : MonoBehaviour, IDamage
         Singleton = this;
     }
 
-
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            Atack();
-        }
-    }
-    public void Atack() => _weapun.Shoot();
 
+    }
+    public void Atack(float angle) => _weapun.Shoot(angle);
     public void GetDamage(float _damage)
     {
         Health -= _damage;
