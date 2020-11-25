@@ -5,12 +5,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed = 0.0f;
     [SerializeField] private float _jumpSpeed = 0.0f;
     [SerializeField] private LayerMask _platformsLayerMask;
-
     private Rigidbody2D _playerRigidbody;
     private BoxCollider2D _boxCollider2D;
     private float _moveX = 0.0f;
     private Vector2 _direction = Vector2.zero;
-
+    private bool facingRight = true;
 
     private void Start()
     {
@@ -21,15 +20,30 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _moveX = _speed * Input.GetAxis("Horizontal");
-        _direction = new Vector2(_moveX, 0.0f);
 
+        MovingCheck();
+
+        _direction = new Vector2(_moveX, 0.0f);
 
         if (CheckGround() && Input.GetKeyDown(KeyCode.W))
         {
             Jumping();
         }
 
+
         Moving(_direction);
+    }
+
+    private void MovingCheck()
+    {
+        if (_moveX != 0.0f)
+        {
+            TimeController.RunTime();
+        }
+        else
+        {
+            TimeController.StopTime();
+        }
     }
 
     private void Jumping()
@@ -38,7 +52,23 @@ public class PlayerController : MonoBehaviour
     }
     private void Moving(Vector2 _direction)
     {
+        if(_direction.x < 0.0f && facingRight)
+        {
+            Flip();
+        }
+        else if(_direction.x > 0.0f && facingRight == false)
+        {
+            Flip();
+        }
         transform.Translate(_direction * Time.deltaTime);
+    }
+
+    private void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 Scaler = transform.localScale;
+        Scaler.x *= -1;
+        transform.localScale = Scaler;
     }
 
     private bool CheckGround()
@@ -46,5 +76,4 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D _raycastHit2D = Physics2D.BoxCast(_boxCollider2D.bounds.center, _boxCollider2D.bounds.size, 0f, Vector2.down, 0.1f, _platformsLayerMask);
         return _raycastHit2D.collider != null;
     }
-
 }

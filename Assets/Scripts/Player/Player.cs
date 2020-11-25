@@ -4,6 +4,7 @@ public class Player : MonoBehaviour, IDamage
 {
     public delegate void CoinAction(int _coinCount);
     public event CoinAction coinsAction;
+    [SerializeField] private Weapun _weapun;
     public static Player Singleton { get; private set; }
     public float Health { get; private set; }
 
@@ -13,6 +14,17 @@ public class Player : MonoBehaviour, IDamage
     {
         Singleton = this;
     }
+
+
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            Atack();
+        }
+    }
+    public void Atack() => _weapun.Shoot();
+
     public void GetDamage(float _damage)
     {
         Health -= _damage;
