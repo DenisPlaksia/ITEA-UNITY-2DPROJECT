@@ -8,7 +8,7 @@ public class AmmoController : MonoBehaviour
     private void Start()
     {
         _ammoCount = GetComponent<Text>();
-        Weapun.Singleton.ammoAction += ShowScore;
+        Weapon.Singleton.ammoAction += ShowScore;
     }
     public void ShowScore(int _ammo)
     {

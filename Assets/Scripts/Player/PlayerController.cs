@@ -5,13 +5,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed = 0.0f;
     [SerializeField] private float _jumpSpeed = 0.0f;
     [SerializeField] private LayerMask _platformsLayerMask;
+    [SerializeField] private LayerMask whatIsLadder;
+    [SerializeField] private float _distanceToLadder;
     private Rigidbody2D _playerRigidbody;
     private BoxCollider2D _boxCollider2D;
     private float _moveX = 0.0f;
     private Vector2 _direction = Vector2.zero;
     private float _angle;
     private bool facingRight = true;
-
+    private float _moveY; 
+    
+    private bool _canClimbing;
     private void Start()
     {
         _boxCollider2D = GetComponent<BoxCollider2D>();
@@ -21,20 +25,46 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _moveX = _speed * Input.GetAxis("Horizontal");
-
-        MovingCheck();
         Attacing();
         _direction = new Vector2(_moveX, 0.0f);
 
-        if (CheckGround() && Input.GetKeyDown(KeyCode.W))
+        if (CheckGround() && Input.GetKeyDown(KeyCode.Space))
         {
             Jumping();
         }
-
+        MovingLadder();
 
         Moving(_direction);
     }
 
+
+    private void MovingLadder()
+    {
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.up, _distanceToLadder, whatIsLadder);
+
+        if (hitinfo.collider != null)
+        {
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                _canClimbing = true;
+            }
+        }
+        else
+        {
+            _canClimbing = false;
+        }
+
+        if (_canClimbing == true && hitinfo.collider != null)
+        {
+            _moveY = Input.GetAxisRaw("Vertical");
+            _playerRigidbody.velocity = new Vector2(0, _moveY * _speed);
+            _playerRigidbody.gravityScale = 0;
+        }
+        else
+        {
+            _playerRigidbody.gravityScale = 1;
+        }
+    }
     private void Attacing()
     {
         if (Input.GetMouseButtonDown(0))
@@ -44,7 +74,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void MovingCheck()
+    /*private void MovingCheck()
     {
         if (_moveX != 0.0f)
         {
@@ -54,7 +84,7 @@ public class PlayerController : MonoBehaviour
         {
             TimeController.StopTime();
         }
-    }
+    }*/
 
     private void Jumping()
     {

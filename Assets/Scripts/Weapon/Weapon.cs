@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-public class Weapun : MonoBehaviour
+public class Weapon : MonoBehaviour
 {
     public delegate void AmmoAction(int _coinCount);
     public event AmmoAction ammoAction;
 
-    public static Weapun Singleton { get; private set; }
+    public static Weapon Singleton { get; private set; }
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
     public int AmountAmmo { get; private set; }
