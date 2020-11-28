@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class AmmoController : MonoBehaviour
 {
-    private Text _ammoCount;
+    private TextMeshProUGUI _ammoCount;
 
     private void Start()
     {
-        _ammoCount = GetComponent<Text>();
-        Weapon.Singleton.ammoAction += ShowScore;
+        _ammoCount = GetComponent<TextMeshProUGUI>();
+        Weapon.ammoAction += ShowScore;
     }
     public void ShowScore(int _ammo)
     {
-        _ammoCount.text = _ammo.ToString();
+        _ammoCount.SetText(_ammo.ToString());
     }
 }

@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
+using System;
 
 public class Player : MonoBehaviour, IDamage
 {
-    public delegate void CoinAction(int _coinCount);
-    public event CoinAction coinsAction;
-    [SerializeField] private Weapon _weapun;
+    public event Action<int> coinsAction;
+    public Weapon _weapun;
     public static Player Singleton { get; private set; }
     public float Health { get; private set; }
 

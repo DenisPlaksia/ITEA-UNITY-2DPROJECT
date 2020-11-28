@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D _boxCollider2D;
     private float _moveX = 0.0f;
     private Vector2 _direction = Vector2.zero;
-    private float _angle;
+    public float _angle;
     private bool facingRight = true;
     private float _moveY; 
     
@@ -118,4 +118,5 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D _raycastHit2D = Physics2D.BoxCast(_boxCollider2D.bounds.center, _boxCollider2D.bounds.size, 0f, Vector2.down, 0.1f, _platformsLayerMask);
         return _raycastHit2D.collider != null;
     }
+    
 }

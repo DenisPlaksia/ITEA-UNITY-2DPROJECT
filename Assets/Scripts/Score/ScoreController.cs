@@ -1,16 +1,18 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using TMPro;
+using UnityEngine;
 
 public class ScoreController : MonoBehaviour
 {
-    [SerializeField] private Text _scoreText;
+    [SerializeField] private TextMeshProUGUI _scoreText;
+    
 
     private void Start()
     {
+        //_scoreText = GetComponent<TextMeshPro>();
         Player.Singleton.coinsAction += ShowScore;
     }
     public void ShowScore(int _score)
     {
-        _scoreText.text = _score.ToString();
+        _scoreText.SetText(_score.ToString());
     }
 }
