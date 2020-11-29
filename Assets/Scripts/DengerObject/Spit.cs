@@ -4,27 +4,26 @@ using UnityEngine;
 
 public class Spit : MonoBehaviour
 {
-    [SerializeField] private float _speed;
+    [SerializeField] private float _speedRotate;
+    [SerializeField] private float _speedMove;
+
     [SerializeField] private bool _canMove;
     [SerializeField] private bool _canRotate;
+
     private Vector3 _startPosition;
     void Update()
     {
-        Rotate(_speed);
+        Rotate(_speedRotate);
         _startPosition = transform.position;
+        if(_canMove)
+        {
+            Move();
+        }
     }
 
-    private void Move(Vector3 to)
+    private void Move()
     {
-        if(transform.position != to)
-        {
-            transform.Translate(to * _speed * Time.deltaTime);
-        }
-        else
-        {
-            transform.Translate(_startPosition * _speed * Time.deltaTime);
-        }
-
+     
     }
     private void Rotate(float speed)
     {

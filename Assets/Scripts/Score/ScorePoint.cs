@@ -1,14 +1,10 @@
 ﻿using UnityEngine;
 
-public class ScorePoint : MonoBehaviour
+public class ScorePoint : MonoBehaviour, ITakeable
 {
-
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void Take()
     {
-        if (collision.gameObject.TryGetComponent<Player>(out Player player))
-        {
-            player.TakeCoins();
-            Destroy(gameObject);
-        }
+        Player.Singleton.TakeCoins();
+        Destroy(gameObject);
     }
 }

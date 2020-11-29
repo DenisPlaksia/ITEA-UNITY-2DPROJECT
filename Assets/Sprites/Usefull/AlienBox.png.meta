@@ -1,0 +1,4064 @@
+fileFormatVersion: 2
+guid: 269d249df5ceb174383e9ab31ba5be8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5434572463712349533
+    second: AlienBox_0
+  - first:
+      213: -675287428650658698
+    second: AlienBox_1
+  - first:
+      213: -5768597980080090455
+    second: AlienBox_2
+  - first:
+      213: -7953497507706361864
+    second: AlienBox_3
+  - first:
+      213: 2871447895614187272
+    second: AlienBox_4
+  - first:
+      213: -5017707133621768989
+    second: AlienBox_5
+  - first:
+      213: -4156884202932524833
+    second: AlienBox_6
+  - first:
+      213: 5122755646944667658
+    second: AlienBox_7
+  - first:
+      213: 4277187158785959237
+    second: AlienBox_8
+  - first:
+      213: 5189775917340648152
+    second: AlienBox_9
+  - first:
+      213: -684580708805850483
+    second: AlienBox_10
+  - first:
+      213: -8489133375089975823
+    second: AlienBox_11
+  - first:
+      213: 1208396942531398245
+    second: AlienBox_12
+  - first:
+      213: 8958266264699755031
+    second: AlienBox_13
+  - first:
+      213: -7665136400866628089
+    second: AlienBox_14
+  - first:
+      213: 6719610631921885686
+    second: AlienBox_15
+  - first:
+      213: 636618892174137101
+    second: AlienBox_16
+  - first:
+      213: -8872661236959622523
+    second: AlienBox_17
+  - first:
+      213: -1866177512808073453
+    second: AlienBox_18
+  - first:
+      213: -1379362442950924992
+    second: AlienBox_19
+  - first:
+      213: -1315943200045348757
+    second: AlienBox_20
+  - first:
+      213: -4404021967429927416
+    second: AlienBox_21
+  - first:
+      213: 2818636295208226658
+    second: AlienBox_22
+  - first:
+      213: 7135679960221035131
+    second: AlienBox_23
+  - first:
+      213: 433703061125566417
+    second: AlienBox_24
+  - first:
+      213: 3795511346298805559
+    second: AlienBox_25
+  - first:
+      213: -8106993198287071191
+    second: AlienBox_26
+  - first:
+      213: 4860597522075740518
+    second: AlienBox_27
+  - first:
+      213: -7368908546593159018
+    second: AlienBox_28
+  - first:
+      213: -589927320999578672
+    second: AlienBox_29
+  - first:
+      213: 5982702496653370984
+    second: AlienBox_30
+  - first:
+      213: -5187215141852460274
+    second: AlienBox_31
+  - first:
+      213: 6500528512235264948
+    second: AlienBox_32
+  - first:
+      213: -514509766741087013
+    second: AlienBox_33
+  - first:
+      213: 632098417382190542
+    second: AlienBox_34
+  - first:
+      213: -814811979948675259
+    second: AlienBox_35
+  - first:
+      213: 8675306536020821337
+    second: AlienBox_36
+  - first:
+      213: 7619324879816982682
+    second: AlienBox_37
+  - first:
+      213: 1994423075002939767
+    second: AlienBox_38
+  - first:
+      213: 7739128544511982060
+    second: AlienBox_39
+  - first:
+      213: 8697219315612770883
+    second: AlienBox_40
+  - first:
+      213: -6025063757065397190
+    second: AlienBox_41
+  - first:
+      213: -6533704516070048446
+    second: AlienBox_42
+  - first:
+      213: 8895120801478754612
+    second: AlienBox_43
+  - first:
+      213: 4846304376392751961
+    second: AlienBox_44
+  - first:
+      213: 3696398621053751806
+    second: AlienBox_45
+  - first:
+      213: 5289772643355356741
+    second: AlienBox_46
+  - first:
+      213: 5698376085720395415
+    second: AlienBox_47
+  - first:
+      213: -6913653374880492079
+    second: AlienBox_48
+  - first:
+      213: 8684946814612153066
+    second: AlienBox_49
+  - first:
+      213: -2025345093872361064
+    second: AlienBox_50
+  - first:
+      213: 6576839220699882243
+    second: AlienBox_51
+  - first:
+      213: -8407561717780537753
+    second: AlienBox_52
+  - first:
+      213: -263715901916164415
+    second: AlienBox_53
+  - first:
+      213: -8429206042785866945
+    second: AlienBox_54
+  - first:
+      213: 4493038527627295941
+    second: AlienBox_55
+  - first:
+      213: -5508883502021949935
+    second: AlienBox_56
+  - first:
+      213: -4266840510933161763
+    second: AlienBox_57
+  - first:
+      213: -7892873284982753181
+    second: AlienBox_58
+  - first:
+      213: -8206175354600430685
+    second: AlienBox_59
+  - first:
+      213: 8439011655531371306
+    second: AlienBox_60
+  - first:
+      213: 5742860612593101988
+    second: AlienBox_61
+  - first:
+      213: -9152155520303049595
+    second: AlienBox_62
+  - first:
+      213: -322303146735485972
+    second: AlienBox_63
+  - first:
+      213: -1795064735129266050
+    second: AlienBox_64
+  - first:
+      213: -4199413876642179345
+    second: AlienBox_65
+  - first:
+      213: -5259750789798127518
+    second: AlienBox_66
+  - first:
+      213: 744040771695120008
+    second: AlienBox_67
+  - first:
+      213: 6951456291088976523
+    second: AlienBox_68
+  - first:
+      213: 7904118182900685404
+    second: AlienBox_69
+  - first:
+      213: -6518543185133958069
+    second: AlienBox_70
+  - first:
+      213: -1621415294154788209
+    second: AlienBox_71
+  - first:
+      213: -1160775485037744794
+    second: AlienBox_72
+  - first:
+      213: -6774255834268986682
+    second: AlienBox_73
+  - first:
+      213: -4652294511207264268
+    second: AlienBox_74
+  - first:
+      213: 3867916487855248212
+    second: AlienBox_75
+  - first:
+      213: 8152031235364655195
+    second: AlienBox_76
+  - first:
+      213: -7655785077369396112
+    second: AlienBox_77
+  - first:
+      213: 4045043082771452026
+    second: AlienBox_78
+  - first:
+      213: -6596178691897850006
+    second: AlienBox_79
+  - first:
+      213: -7988039299570898118
+    second: AlienBox_80
+  - first:
+      213: -2785649993686758832
+    second: AlienBox_81
+  - first:
+      213: -6076695408961264766
+    second: AlienBox_82
+  - first:
+      213: 5381679440899087434
+    second: AlienBox_83
+  - first:
+      213: -3080681791327591097
+    second: AlienBox_84
+  - first:
+      213: -3325051676210738001
+    second: AlienBox_85
+  - first:
+      213: -604986933428943979
+    second: AlienBox_86
+  - first:
+      213: -2311545431342634501
+    second: AlienBox_87
+  - first:
+      213: 7817939009479386370
+    second: AlienBox_88
+  - first:
+      213: -8739043096122246811
+    second: AlienBox_89
+  - first:
+      213: -3099218539300516153
+    second: AlienBox_90
+  - first:
+      213: -8485111915120241733
+    second: AlienBox_91
+  - first:
+      213: 935572939269951736
+    second: AlienBox_92
+  - first:
+      213: 4516107773686606229
+    second: AlienBox_93
+  - first:
+      213: 6679975832567830085
+    second: AlienBox_94
+  - first:
+      213: -3070393694154160915
+    second: AlienBox_95
+  - first:
+      213: 6405770834768202555
+    second: AlienBox_96
+  - first:
+      213: 1313297613589747302
+    second: AlienBox_97
+  - first:
+      213: -4188923901595889201
+    second: AlienBox_98
+  - first:
+      213: -4916707838655153661
+    second: AlienBox_99
+  - first:
+      213: 171325140048308781
+    second: AlienBox_100
+  - first:
+      213: 5896457237895257379
+    second: AlienBox_101
+  - first:
+      213: -6267735075198101724
+    second: AlienBox_102
+  - first:
+      213: 8329670514240380438
+    second: AlienBox_103
+  - first:
+      213: 4059162403755794820
+    second: AlienBox_104
+  - first:
+      213: -4142999007164728103
+    second: AlienBox_105
+  - first:
+      213: -1229552178240809316
+    second: AlienBox_106
+  - first:
+      213: -8474726860182033067
+    second: AlienBox_107
+  - first:
+      213: -6938671843695117515
+    second: AlienBox_108
+  - first:
+      213: -5880136088062437927
+    second: AlienBox_109
+  - first:
+      213: 1362211186160700166
+    second: AlienBox_110
+  - first:
+      213: 8833372856025329227
+    second: AlienBox_111
+  - first:
+      213: 5798509065387956444
+    second: AlienBox_112
+  - first:
+      213: -2626585523193444684
+    second: AlienBox_113
+  - first:
+      213: 4058317636903012933
+    second: AlienBox_114
+  - first:
+      213: -7755890988606912634
+    second: AlienBox_115
+  - first:
+      213: -9003530787680749669
+    second: AlienBox_116
+  - first:
+      213: -7269364239107200387
+    second: AlienBox_117
+  - first:
+      213: 7647780646531728813
+    second: AlienBox_118
+  - first:
+      213: -3488944477941117799
+    second: AlienBox_119
+  - first:
+      213: 5956732006320604076
+    second: AlienBox_120
+  - first:
+      213: -5902215577958457265
+    second: AlienBox_121
+  - first:
+      213: 5178963180237688809
+    second: AlienBox_122
+  - first:
+      213: -8674576046768079334
+    second: AlienBox_123
+  - first:
+      213: -996526298272943866
+    second: AlienBox_124
+  - first:
+      213: 8133891518173263783
+    second: AlienBox_125
+  - first:
+      213: -1008039218772855606
+    second: AlienBox_126
+  - first:
+      213: 3970668027924790138
+    second: AlienBox_127
+  - first:
+      213: 4957638070060800149
+    second: AlienBox_128
+  - first:
+      213: -4535057256513644550
+    second: AlienBox_129
+  - first:
+      213: -3497812878173755525
+    second: AlienBox_130
+  - first:
+      213: 6739960648490186997
+    second: AlienBox_131
+  - first:
+      213: -2037178041013919035
+    second: AlienBox_132
+  - first:
+      213: -4456116592162122871
+    second: AlienBox_133
+  - first:
+      213: -9143432762704046713
+    second: AlienBox_134
+  - first:
+      213: 8719932198961504184
+    second: AlienBox_135
+  - first:
+      213: -6091726344960945944
+    second: AlienBox_136
+  - first:
+      213: 4814914523591559840
+    second: AlienBox_137
+  - first:
+      213: -2171525899645379012
+    second: AlienBox_138
+  - first:
+      213: -827072758422422538
+    second: AlienBox_139
+  - first:
+      213: 4047354721910819188
+    second: AlienBox_140
+  - first:
+      213: -2015142058846635755
+    second: AlienBox_141
+  - first:
+      213: 6427105989477265128
+    second: AlienBox_142
+  - first:
+      213: 7047224659166036549
+    second: AlienBox_143
+  - first:
+      213: -9013818088692767207
+    second: AlienBox_144
+  - first:
+      213: 2408243960415453029
+    second: AlienBox_145
+  - first:
+      213: 2491989158020055522
+    second: AlienBox_146
+  - first:
+      213: -6990591497558500225
+    second: AlienBox_147
+  - first:
+      213: -7543950680919565158
+    second: AlienBox_148
+  - first:
+      213: 6648482218661527650
+    second: AlienBox_149
+  - first:
+      213: 5158797303757269422
+    second: AlienBox_150
+  - first:
+      213: -7755790695310149436
+    second: AlienBox_151
+  - first:
+      213: 8514101272699611204
+    second: AlienBox_152
+  - first:
+      213: 4141264514886984220
+    second: AlienBox_153
+  - first:
+      213: 55189876533294431
+    second: AlienBox_154
+  - first:
+      213: -121163288395043390
+    second: AlienBox_155
+  - first:
+      213: -3805313635970638648
+    second: AlienBox_156
+  - first:
+      213: 1285995731485134590
+    second: AlienBox_157
+  - first:
+      213: 4700311045043955464
+    second: AlienBox_158
+  - first:
+      213: 6536921161282028396
+    second: AlienBox_159
+  - first:
+      213: -8387946037405246101
+    second: AlienBox_160
+  - first:
+      213: 56108371311996999
+    second: AlienBox_161
+  - first:
+      213: 3472726476843838397
+    second: AlienBox_162
+  - first:
+      213: 8517931496574254917
+    second: AlienBox_163
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AlienBox_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1002
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a25e4a43258494b0800000000000000
+      internalID: -5434572463712349533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1005
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6749df559a5e0a6f0800000000000000
+      internalID: -675287428650658698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1000
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a25a4153b2d1ffa0800000000000000
+      internalID: -5768597980080090455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1003
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7253bf7208f9190800000000000000
+      internalID: -7953497507706361864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 940
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8076021c5ae69d720800000000000000
+      internalID: 2871447895614187272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 991
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ece78962f58d5ab0800000000000000
+      internalID: -5017707133621768989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 987
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd826cf67d7cf46c0800000000000000
+      internalID: -4156884202932524833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 982
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08634f8e1fa71740800000000000000
+      internalID: 5122755646944667658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 981
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545ac453f0f9b5b30800000000000000
+      internalID: 4277187158785959237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 953
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d267f043b9c50840800000000000000
+      internalID: 5189775917340648152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 952
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8aca8fe871ef76f0800000000000000
+      internalID: -684580708805850483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 938
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd59d63c2a803a80800000000000000
+      internalID: -8489133375089975823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 936
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a804bed9615c010800000000000000
+      internalID: 1208396942531398245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 932
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a5bce64b7225c70800000000000000
+      internalID: 8958266264699755031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 923
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ead671e07ff9590800000000000000
+      internalID: -7665136400866628089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 872
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f164a8844ad04d50800000000000000
+      internalID: 6719610631921885686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 910
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07975d6289b5d800800000000000000
+      internalID: 636618892174137101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 909
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac4a64d99fdd480800000000000000
+      internalID: -8872661236959622523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 911
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317b04580710a16e0800000000000000
+      internalID: -1866177512808073453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 900
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04525639a258bdce0800000000000000
+      internalID: -1379362442950924992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 901
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c4b8b1a4dcbde0800000000000000
+      internalID: -1315943200045348757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 890
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e7258aa55c1e2c0800000000000000
+      internalID: -4404021967429927416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 902
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc8e6d6cecd1720800000000000000
+      internalID: 2818636295208226658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 904
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a29db0e17070360800000000000000
+      internalID: 7135679960221035131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 901
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df8360e2a2d40600800000000000000
+      internalID: 433703061125566417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 888
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dda11c57d5ca430800000000000000
+      internalID: 3795511346298805559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 890
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928579b83ac2e7f80800000000000000
+      internalID: -8106993198287071191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 892
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e77b91bf447340800000000000000
+      internalID: 4860597522075740518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 886
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69889f118b06cb990800000000000000
+      internalID: -7368908546593159018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_29
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 888
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b5842a3820d7f0800000000000000
+      internalID: -589927320999578672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 859
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866edd51934d60350800000000000000
+      internalID: 5982702496653370984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 866
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4b50cf4f4308b0800000000000000
+      internalID: -5187215141852460274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 873
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbd4189d34863a50800000000000000
+      internalID: 6500528512235264948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_33
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 865
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcade7d7181cd8f0800000000000000
+      internalID: -514509766741087013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_34
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 871
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecde62f592aa5c800800000000000000
+      internalID: 632098417382190542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_35
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 830
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2d6042d431b4f0800000000000000
+      internalID: -814811979948675259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 856
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955452da451e46870800000000000000
+      internalID: 8675306536020821337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 854
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9089c9fb974db960800000000000000
+      internalID: 7619324879816982682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 854
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7797465483d9dab10800000000000000
+      internalID: 1994423075002939767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 858
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9f8b65868e66b60800000000000000
+      internalID: 7739128544511982060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 804
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e3c043eab2b870800000000000000
+      internalID: 8697219315612770883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 847
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c59036f6ca26ca0800000000000000
+      internalID: -6025063757065397190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_42
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 844
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d77441c5e9355a0800000000000000
+      internalID: -6533704516070048446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_43
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 851
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43144569d31d17b70800000000000000
+      internalID: 8895120801478754612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_44
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 849
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b9f4c4728814340800000000000000
+      internalID: 4846304376392751961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 842
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1172426fe3c4330800000000000000
+      internalID: 3696398621053751806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 827
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e66c5513c096940800000000000000
+      internalID: 5289772643355356741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 827
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ee1f1dbd2b41f40800000000000000
+      internalID: 5698376085720395415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_48
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 821
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5511ab2e4cd00a0800000000000000
+      internalID: -6913653374880492079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 826
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae22e12fc11278870800000000000000
+      internalID: 8684946814612153066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891682c2e5784e3e0800000000000000
+      internalID: -2025345093872361064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 820
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3036ca6fc60a54b50800000000000000
+      internalID: 6576839220699882243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_52
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 808
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e9480b927525b80800000000000000
+      internalID: -8407561717780537753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_53
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 823
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce4aa0d8c7175cf0800000000000000
+      internalID: -263715901916164415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_54
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 820
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b1c2193c1750b80800000000000000
+      internalID: -8429206042785866945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_55
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 814
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc7e595cba7a5e30800000000000000
+      internalID: 4493038527627295941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_56
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 799
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116c8f864a38c83b0800000000000000
+      internalID: -5508883502021949935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_57
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 815
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82598792329c4c0800000000000000
+      internalID: -4266840510933161763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_58
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 807
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368be67c091e67290800000000000000
+      internalID: -7892873284982753181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 805
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3e9704efecd1e80800000000000000
+      internalID: -8206175354600430685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_60
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 808
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b145f83646d1570800000000000000
+      internalID: 8439011655531371306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_61
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 779
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aca138dc4db2bf40800000000000000
+      internalID: 5742860612593101988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_62
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 801
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d4336b030df080800000000000000
+      internalID: -9152155520303049595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_63
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 734
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb37d4eef2f68bf0800000000000000
+      internalID: -322303146735485972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_64
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 795
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e781ac15226a617e0800000000000000
+      internalID: -1795064735129266050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 780
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe695e1245fa8b5c0800000000000000
+      internalID: -4199413876642179345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_66
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 790
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2689007268c9107b0800000000000000
+      internalID: -5259750789798127518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_67
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 768
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e8b47c32d535a00800000000000000
+      internalID: 744040771695120008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_68
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 770
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a43069aa8887060800000000000000
+      internalID: 6951456291088976523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 788
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a508a0c9111bd60800000000000000
+      internalID: 7904118182900685404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_70
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 784
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c0c05828b7985a0800000000000000
+      internalID: -6518543185133958069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_71
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 787
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b48e61639f79e0800000000000000
+      internalID: -1621415294154788209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_72
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 789
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66de75ea8d814efe0800000000000000
+      internalID: -1160775485037744794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_73
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 779
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c297c4d5320df1a0800000000000000
+      internalID: -6774255834268986682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_74
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 788
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffcdfc7acabf6fb0800000000000000
+      internalID: -4652294511207264268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 769
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4531d777d899da530800000000000000
+      internalID: 3867916487855248212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_76
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 783
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b509ccd9735d12170800000000000000
+      internalID: 8152031235364655195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 780
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07429a2c80031c590800000000000000
+      internalID: -7655785077369396112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_78
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 775
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a705eb19041e22830800000000000000
+      internalID: 4045043082771452026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_79
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 768
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a678d628d6aa574a0800000000000000
+      internalID: -6596178691897850006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_80
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 769
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b67395498c42190800000000000000
+      internalID: -7988039299570898118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_81
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 773
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a4bb9f6126759d0800000000000000
+      internalID: -2785649993686758832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_82
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 770
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283ed94a8bd3baba0800000000000000
+      internalID: -6076695408961264766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_83
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 725
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c10d920f09faa40800000000000000
+      internalID: 5381679440899087434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_84
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 737
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745a7e1ab383f35d0800000000000000
+      internalID: -3080681791327591097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_85
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 759
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac44ab0e1b0bd1d0800000000000000
+      internalID: -3325051676210738001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_86
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 761
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5930733e697aa97f0800000000000000
+      internalID: -604986933428943979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_87
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 736
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf925a26dadbbefd0800000000000000
+      internalID: -2311545431342634501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_88
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 746
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20520bf9b16ee7c60800000000000000
+      internalID: 7817939009479386370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_89
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 725
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569bdc20b9ea8b680800000000000000
+      internalID: -8739043096122246811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 728
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce00bba82d5df4d0800000000000000
+      internalID: -3099218539300516153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_91
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 723
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3d2d35ba3de3a80800000000000000
+      internalID: -8485111915120241733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_92
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 620
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f057a2a1a2dbfc00800000000000000
+      internalID: 935572939269951736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_93
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59968f1c7107cae30800000000000000
+      internalID: 4516107773686606229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_94
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 714
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5465660b0aa04bc50800000000000000
+      internalID: 6679975832567830085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_95
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 710
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4875be335c365d0800000000000000
+      internalID: -3070393694154160915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_96
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 685
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b8aee82aed5e850800000000000000
+      internalID: 6405770834768202555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666926ea835c93210800000000000000
+      internalID: 1313297613589747302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_98
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 705
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1db36c7e3fdd5c0800000000000000
+      internalID: -4188923901595889201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_99
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 707
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ab494454854cbb0800000000000000
+      internalID: -4916707838655153661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_100
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 695
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a6ca1ae4ba06200800000000000000
+      internalID: 171325140048308781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_101
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 654
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d170afd9c64d150800000000000000
+      internalID: 5896457237895257379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 670
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279f8038288409a0800000000000000
+      internalID: -6267735075198101724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 656
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ed751433fe89370800000000000000
+      internalID: 8329670514240380438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_104
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 673
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4812c7923ba055830800000000000000
+      internalID: 4059162403755794820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_105
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc76218a5c1186c0800000000000000
+      internalID: -4142999007164728103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_106
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 540
+        width: 123
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96162feec0cfeee0800000000000000
+      internalID: -1229552178240809316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_107
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 650
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d636a52d8b36a80800000000000000
+      internalID: -8474726860182033067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_108
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 610
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b3c8788b2e4bf90800000000000000
+      internalID: -6938671843695117515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_109
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 612
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d55518d16f856ea0800000000000000
+      internalID: -5880136088062437927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_110
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 622
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b0c244bdb87e210800000000000000
+      internalID: 1362211186160700166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_111
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 609
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ea7f3bfc1769a70800000000000000
+      internalID: 8833372856025329227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_112
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 557
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8d45de541787050800000000000000
+      internalID: 5798509065387956444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 600
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b60fd5026e7c8bd0800000000000000
+      internalID: -2626585523193444684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_114
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 522
+        width: 105
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a8e4d836a025830800000000000000
+      internalID: 4058317636903012933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6878e630d3a8d5490800000000000000
+      internalID: -7755890988606912634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 601
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97fefb83780d0380800000000000000
+      internalID: -9003530787680749669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_117
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 593
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a66114db70e1b90800000000000000
+      internalID: -7269364239107200387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_118
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 583
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da581a47aff522a60800000000000000
+      internalID: 7647780646531728813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_119
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 545
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c42478b77c49fc0800000000000000
+      internalID: -3488944477941117799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_120
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 444
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca380fa13309aa250800000000000000
+      internalID: 5956732006320604076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_121
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 451
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406200043e171ea0800000000000000
+      internalID: -5902215577958457265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_122
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 470
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef05e6b29f5fd740800000000000000
+      internalID: 5178963180237688809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_123
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 454
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb64b9b07bd9780800000000000000
+      internalID: -8674576046768079334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_124
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 478
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6013b1e8c90ab22f0800000000000000
+      internalID: -996526298272943866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_125
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 380
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b7469d3361e070800000000000000
+      internalID: 8133891518173263783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_126
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 418
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4b16ddba9b202f0800000000000000
+      internalID: -1008039218772855606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_127
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 380
+        width: 69
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b357da885aa1730800000000000000
+      internalID: 3970668027924790138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_128
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 398
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5985deade811dc440800000000000000
+      internalID: 4957638070060800149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_129
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af75275f37d3011c0800000000000000
+      internalID: -4535057256513644550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_130
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 438
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77aaa138b5457fc0800000000000000
+      internalID: -3497812878173755525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_131
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 330
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f87e5dff76298d50800000000000000
+      internalID: 6739960648490186997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_132
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 386
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2a3297d5d7ab3e0800000000000000
+      internalID: -2037178041013919035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_133
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 316
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983d376a191b822c0800000000000000
+      internalID: -4456116592162122871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_134
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 318
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7855b57a8500c1180800000000000000
+      internalID: -9143432762704046713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_135
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 318
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf5790822c630970800000000000000
+      internalID: 8719932198961504184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_136
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 340
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0d6b32a27d57ba0800000000000000
+      internalID: -6091726344960945944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa4b8aaf3302d240800000000000000
+      internalID: 4814914523591559840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_138
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 248
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e931313b03dd1e0800000000000000
+      internalID: -2171525899645379012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_139
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb34de45b5a584f0800000000000000
+      internalID: -827072758422422538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_140
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 250
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4798e7ffca71b2830800000000000000
+      internalID: 4047354721910819188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_141
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 278
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5193f7269f6c804e0800000000000000
+      internalID: -2015142058846635755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_142
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 270
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eee39c58daa13950800000000000000
+      internalID: 6427105989477265128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54207fd5d75ccc160800000000000000
+      internalID: 7047224659166036549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_144
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 182
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9162a71a43c78e280800000000000000
+      internalID: -9013818088692767207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_145
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 194
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ffa016f1dcb6120800000000000000
+      internalID: 2408243960415453029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_146
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 182
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e109e3afe2559220800000000000000
+      internalID: 2491989158020055522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_147
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 242
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cd82a121e6cfe90800000000000000
+      internalID: -6990591497558500225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_148
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 200
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c19b443d08e4790800000000000000
+      internalID: -7543950680919565158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26042da4a57244c50800000000000000
+      internalID: 6648482218661527650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_150
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 114
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e1b6b0dab79740800000000000000
+      internalID: 5158797303757269422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_151
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 126
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c832cd5475ed5490800000000000000
+      internalID: -7755790695310149436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 114
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44826f47ff9282670800000000000000
+      internalID: 8514101272699611204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_153
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 132
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12e4ca822ab87930800000000000000
+      internalID: 4141264514886984220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55f6f976e214c000800000000000000
+      internalID: 55189876533294431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_155
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd256391aa815ef0800000000000000
+      internalID: -121163288395043390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_156
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 58
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc1505d86fc03bc0800000000000000
+      internalID: -3805313635970638648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_157
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 61
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe07d5ed46c8d110800000000000000
+      internalID: 1285995731485134590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_158
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 62
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807a0bdfdfbda3140800000000000000
+      internalID: 4700311045043955464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_159
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 64
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6303fe792fc7ba50800000000000000
+      internalID: 6536921161282028396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_160
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d905d2587089b80800000000000000
+      internalID: -8387946037405246101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_161
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403af4344657c000800000000000000
+      internalID: 56108371311996999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_162
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbee56d45a913030800000000000000
+      internalID: 3472726476843838397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBox_163
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f7b62f095c53670800000000000000
+      internalID: 8517931496574254917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

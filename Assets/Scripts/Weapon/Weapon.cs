@@ -8,6 +8,7 @@ public class Weapon : MonoBehaviour
 
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
+    [SerializeField] private AudioSource _shootSound;
     public int AmountAmmo { get; private set; }
 
     private void Start()
@@ -20,6 +21,7 @@ public class Weapon : MonoBehaviour
     {
         if (AmmoCheck())
         {
+            _shootSound.Play();
             Instantiate(_bullet, _targetPoint.transform.position, Quaternion.Euler(new Vector3(0f, 0f, direction)));
             AmountAmmo--;
             ammoAction?.Invoke(AmountAmmo);
