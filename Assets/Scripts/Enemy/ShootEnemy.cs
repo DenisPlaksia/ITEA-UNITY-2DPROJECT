@@ -20,10 +20,9 @@ public class ShootEnemy : Enemy
         PlayerCheck();
     }
     private void ResetAttack() => _canAttack = false;
-
     private void PlayerCheck()
     {
-        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, isPlayer);
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer);
         if (hitinfo.transform.GetComponent<Player>() != null)
         {
             if (!_canAttack)

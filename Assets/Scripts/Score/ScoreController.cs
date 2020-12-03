@@ -8,11 +8,7 @@ public class ScoreController : MonoBehaviour
 
     private void Start()
     {
-        //_scoreText = GetComponent<TextMeshPro>();
         Player.Singleton.coinsAction += ShowScore;
     }
-    public void ShowScore(int _score)
-    {
-        _scoreText.SetText(_score.ToString());
-    }
+    public void ShowScore(int _score) => _scoreText.SetText(_score.ToString());
 }

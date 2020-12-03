@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class ScorePoint : MonoBehaviour, ITakeable
+public class ScorePoint : MonoBehaviour, IInteractable
 {
-    public void Take()
+    public void Interact()
     {
         Player.Singleton.TakeCoins();
         Destroy(gameObject);

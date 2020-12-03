@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ammo : MonoBehaviour, ITakeable
+public class Ammo : MonoBehaviour, IInteractable
 {
-    public void Take()
+    public void Interact()
     {
-        Player.Singleton._weapun.AddAmmo(Random.Range(1, 6));
+        Player.Singleton._weapon.AddAmmo(Random.Range(1, 6));
         Destroy(gameObject);
     }
 }

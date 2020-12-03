@@ -4,17 +4,27 @@ using System;
 public class Player : MonoBehaviour, IDamage
 {
     public event Action<int> coinsAction;
-    public Weapon _weapun;
-    public static Player Singleton { get; private set; }
-    public float Health { get; private set; }
+    public event Action deathAction;
+    public static Player Singleton { get; set; }
+    public float _health;
 
     [SerializeField] private GameObject _playerDeathParticle;
+    [SerializeField] private AudioSource _playerLoseSound;
 
-    private int _score;
+    public int _score;
+    public string _name;
+    public Weapon _weapon;
+    public int _weaponAmmo = 0;
 
     private void Awake()
     {
         Singleton = this;
+    }
+
+    private void Start()
+    {
+        _weaponAmmo = _weapon.AmountAmmo;
+        _health = 100f;
     }
 
     private void Update()
@@ -22,17 +32,24 @@ public class Player : MonoBehaviour, IDamage
         PositionCheck();
     }
 
-    public void Atack(float angle) => _weapun.Shoot(angle);
-    public void GetDamage(float _damage)
+    public void Attack(float angle) => _weapon.Shoot(angle);
+    public void GetDamage(float damage)
     {
-        Health -= _damage;
-
-        if (Health <= 0)
+        _health -= damage;
+        deathAction?.Invoke();
+        _playerLoseSound.Play();
+        if (_health <= 0)
         {
             Death();
         }
     }
+    public void TakeCoins()
+    {
+        _score++;
+        coinsAction?.Invoke(_score);
+    }
 
+    //перевірка позиції персонажа і якщо вона менше -5, то персонаж гине
     private void PositionCheck()
     {
         if(transform.position.y < -5)
@@ -40,23 +57,22 @@ public class Player : MonoBehaviour, IDamage
             Death();
         }
     }
-
-    public void TakeCoins()
-    {
-        _score++;
-        coinsAction?.Invoke(_score);
-    }
     private void Death()
     {
+        
         Instantiate(_playerDeathParticle, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
+
+    //Для взаємодії з іншими обєктами на сцені, які будуть по-різному реагувать
+    //на зіткнення з персонажем
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.GetComponent<ITakeable>() != null)
+        if(collision.gameObject.GetComponent<IInteractable>() != null)
         {
-            collision.gameObject.GetComponent<ITakeable>().Take();
+            collision.gameObject.GetComponent<IInteractable>().Interact();
         }
     }
 }

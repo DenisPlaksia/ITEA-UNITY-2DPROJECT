@@ -1,24 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] private GameObject _menuPlane;
-
-
+    [SerializeField] private GameObject _losePlane;
 
     private void Start()
     {
-        _menuPlane.SetActive(false);
+        _losePlane.SetActive(false);
+
+        Player.Singleton.deathAction += LoseGame;
     }
 
-
-    private void Update()
+    private void LoseGame()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            _menuPlane.SetActive(true);
-        }
+        PlayerController._canMove = false;
+        _losePlane.SetActive(true);
     }
 }

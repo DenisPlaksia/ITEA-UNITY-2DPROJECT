@@ -1,4 +1,0 @@
-﻿interface ITakeable
-{
-    void Take();
-}

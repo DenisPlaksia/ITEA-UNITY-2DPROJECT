@@ -1,0 +1,15 @@
+{
+    "_health": 100.0,
+    "_playerDeathParticle": {
+        "instanceID": 15852
+    },
+    "_playerLoseSound": {
+        "instanceID": 14738
+    },
+    "_score": 0,
+    "_name": "",
+    "_weapon": {
+        "instanceID": 15686
+    },
+    "_weaponAmmo": 1
+}
