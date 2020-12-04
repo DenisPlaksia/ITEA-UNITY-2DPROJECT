@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private bool _facingRight = true;
     private bool _canClimbing;
     private MenuController _menuController;
+    
+    
     public static bool _canMove = false;
     public float _angle;
     private void Start()

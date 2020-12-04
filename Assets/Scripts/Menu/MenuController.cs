@@ -8,14 +8,14 @@ public class MenuController : MonoBehaviour
 {
 
     [SerializeField] private GameObject _panelMenu;
-    [SerializeField] private TMP_InputField _nameInputField;
-    [SerializeField] private Button _saveNameButton;
-    [SerializeField] private Slider _soundVolume;
+    [SerializeField] private GameObject _settingMenu;
+
     [SerializeField] private Button _saveGameButton;
     [SerializeField] private Button _loadGameButton;
     [SerializeField] private Button _quitGameButton;
-
     [SerializeField] private Button _playGameButton;
+    [SerializeField] private Button _settingGameButton;
+
 
     private bool _isMenuOpen;
 
@@ -24,26 +24,26 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
-        _saveNameButton.onClick.AddListener(OnNameChanged);
         _playGameButton.onClick.AddListener(OnPlayButtonClick);
-        _soundVolume.onValueChanged.AddListener(SoundController.Singelton.ChangeVolume);
         _saveGameButton.onClick.AddListener(Save);
         _loadGameButton.onClick.AddListener(Load);
+        _quitGameButton.onClick.AddListener(CloseGame);
+        _settingGameButton.onClick.AddListener(SettingOn);
         _isMenuOpen = true;
         _panelMenu.SetActive(true);
-    }
-
-
-
-    private void OnNameChanged()
-    {
-        Player.Singleton._name = _nameInputField.text;
-        Debug.Log(Player.Singleton._name);
     }
 
     private void OnPlayButtonClick()
     {
         CloseMenu();
+    }
+
+
+    private void SettingOn()
+    {
+        PlayerController._canMove = false;
+        _settingMenu.SetActive(true);
+        _panelMenu.SetActive(false);
     }
 
 
@@ -68,13 +68,7 @@ public class MenuController : MonoBehaviour
 
     private void Save()
     {
-        var jsonObject = JsonUtility.ToJson(Player.Singleton, true);
-        using (FileStream file = new FileStream(PlayerDataFilePath, FileMode.OpenOrCreate))
-        {
-            byte[] array = System.Text.Encoding.Default.GetBytes(jsonObject);
-
-            file.Write(array, 0, array.Length);
-        }
+        var jsonObject = JsonUtility.ToJson(Player.Singleton._playerData, true);
 
         PlayerPrefs.SetString(PlayerDataKey, jsonObject);
 
@@ -93,18 +87,10 @@ public class MenuController : MonoBehaviour
 
         string jsonObject = string.Empty;
 
-        using (FileStream file = File.OpenRead(PlayerDataFilePath))
-        {
-            byte[] array = new byte[file.Length];
-            file.Read(array, 0, array.Length);
-            //convert to jsonObj
-            jsonObject = System.Text.Encoding.Default.GetString(array);
-        }
-        //jsonObject = PlayerPrefs.GetString(PlayerDataKey, string.Empty);
+        jsonObject = PlayerPrefs.GetString(PlayerDataKey);
 
-        //convert to class object
-        Player.Singleton = JsonUtility.FromJson<Player>(jsonObject);
-
+        Player.Singleton._playerData = JsonUtility.FromJson<PlayerData>(jsonObject);
+        Player.Singleton.TakeCoins(Player.Singleton._playerData._score);
         Debug.Log($"Load PlayerData from path: {PlayerDataFilePath}, playerData: {jsonObject}");
     }
 }

@@ -22,11 +22,12 @@ public class ShootEnemy : Enemy
     private void ResetAttack() => _canAttack = false;
     private void PlayerCheck()
     {
-        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer);
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, isPlayer);
         if (hitinfo.transform.GetComponent<Player>() != null)
         {
             if (!_canAttack)
             {
+                Debug.Log("Enemy Shoot");
                 _canAttack = true;
                 Attack();
                 Invoke(nameof(ResetAttack), _timeBetweenAttack);

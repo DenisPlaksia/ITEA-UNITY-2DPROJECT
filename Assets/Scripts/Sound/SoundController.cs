@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SoundController : MonoBehaviour
 {
-    [SerializeField] private AudioSource _weaponShoot;
     [SerializeField] private List<AudioSource> audioSources;
     public static SoundController Singelton { get; private set; }
 

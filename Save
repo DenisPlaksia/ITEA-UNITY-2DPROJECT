@@ -1,11 +1,13 @@
 {
-    "_health": 100.0,
-    "_playerDeathParticle": {
-        "instanceID": 15852
-    },
-    "_playerLoseSound": {
-        "instanceID": 14738
-    },
+    "_health": 0.0,
+    "_score": 0,
+    "_name": "",
+    "_weaponAmmo": 0,
+    "_playerPosition": {
+        "x": 0.0,
+        "y": 0.0
+    }
+}  },
     "_score": 0,
     "_name": "",
     "_weapon": {

@@ -6,15 +6,11 @@ public class Player : MonoBehaviour, IDamage
     public event Action<int> coinsAction;
     public event Action deathAction;
     public static Player Singleton { get; set; }
-    public float _health;
 
     [SerializeField] private GameObject _playerDeathParticle;
-    [SerializeField] private AudioSource _playerLoseSound;
+    public PlayerData _playerData;
 
-    public int _score;
-    public string _name;
     public Weapon _weapon;
-    public int _weaponAmmo = 0;
 
     private void Awake()
     {
@@ -23,30 +19,35 @@ public class Player : MonoBehaviour, IDamage
 
     private void Start()
     {
-        _weaponAmmo = _weapon.AmountAmmo;
-        _health = 100f;
+        _playerData._weaponAmmo = _weapon.AmountAmmo;
+        _playerData._health = 50f;
     }
 
     private void Update()
     {
         PositionCheck();
+        _playerData._playerPosition = transform.position;
+    }
+
+    public void SetName(string name)
+    {
+        _playerData._name = name;
     }
 
     public void Attack(float angle) => _weapon.Shoot(angle);
     public void GetDamage(float damage)
     {
-        _health -= damage;
+        _playerData._health -= damage;
         deathAction?.Invoke();
-        _playerLoseSound.Play();
-        if (_health <= 0)
+        if (_playerData._health <= 0)
         {
             Death();
         }
     }
-    public void TakeCoins()
+    public void TakeCoins(int score)
     {
-        _score++;
-        coinsAction?.Invoke(_score);
+        //_playerData._score++;
+        coinsAction?.Invoke(score);
     }
 
     //перевірка позиції персонажа і якщо вона менше -5, то персонаж гине
@@ -75,4 +76,15 @@ public class Player : MonoBehaviour, IDamage
             collision.gameObject.GetComponent<IInteractable>().Interact();
         }
     }
+}
+
+
+[Serializable]
+public class PlayerData
+{
+    public float _health;
+    public int _score;
+    public string _name;
+    public int _weaponAmmo = 0;
+    public Vector2 _playerPosition;
 }

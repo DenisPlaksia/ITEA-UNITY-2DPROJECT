@@ -10,5 +10,6 @@ public class ScoreController : MonoBehaviour
     {
         Player.Singleton.coinsAction += ShowScore;
     }
-    public void ShowScore(int _score) => _scoreText.SetText(_score.ToString());
+
+    private void ShowScore(int _score) => _scoreText.SetText(_score.ToString());
 }
