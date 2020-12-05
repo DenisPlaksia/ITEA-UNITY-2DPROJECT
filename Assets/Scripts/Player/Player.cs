@@ -38,7 +38,7 @@ public class Player : MonoBehaviour, IDamage
     public void GetDamage(float damage)
     {
         _playerData._health -= damage;
-        deathAction?.Invoke();
+        
         if (_playerData._health <= 0)
         {
             Death();
@@ -60,8 +60,9 @@ public class Player : MonoBehaviour, IDamage
     }
     private void Death()
     {
-        
+       
         Instantiate(_playerDeathParticle, transform.position, Quaternion.identity);
+        deathAction?.Invoke();
         Destroy(gameObject);
     }
 
