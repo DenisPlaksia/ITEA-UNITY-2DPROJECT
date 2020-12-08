@@ -10,16 +10,16 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _playerRigidbody;
     private BoxCollider2D _boxCollider2D;
+    private MenuController _menuController;
     private Vector2 _direction = Vector2.zero;
     private float _moveY;
     private float _moveX = 0.0f;
+    private float _angle;
     private bool _facingRight = true;
     private bool _canClimbing;
-    private MenuController _menuController;
-    
-    
+
+
     public static bool _canMove = false;
-    public float _angle;
     private void Start()
     {
         _canMove = false;
@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     {
         if (_canMove)
         {
+
             _moveX = _speed * Input.GetAxis("Horizontal");
             Attacking();
             _direction = new Vector2(_moveX, 0.0f);
@@ -86,18 +87,6 @@ public class PlayerController : MonoBehaviour
             Player.Singleton.Attack(_angle);
         }
     }
-
-    /*private void MovingCheck()
-    {
-        if (_moveX != 0.0f)
-        {
-            TimeController.RunTime();
-        }
-        else
-        {
-            TimeController.StopTime();
-        }
-    }*/
 
     private void Jumping()
     {

@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class ScoreController : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _scoreText;
-    
+    [SerializeField] private TextMeshProUGUI _scoreText;    
 
     private void Start()
     {
+        ShowScore(Player.Singleton._playerData._score);
         Player.Singleton.coinsAction += ShowScore;
     }
 

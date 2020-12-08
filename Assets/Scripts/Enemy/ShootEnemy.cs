@@ -7,6 +7,7 @@ public class ShootEnemy : Enemy
     [SerializeField] private LayerMask isPlayer;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
+
     private float _timeBetweenAttack = 1f;
     private bool _canAttack = false;
 
@@ -27,7 +28,6 @@ public class ShootEnemy : Enemy
         {
             if (!_canAttack)
             {
-                Debug.Log("Enemy Shoot");
                 _canAttack = true;
                 Attack();
                 Invoke(nameof(ResetAttack), _timeBetweenAttack);

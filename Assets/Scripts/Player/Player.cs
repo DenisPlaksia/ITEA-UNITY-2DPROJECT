@@ -3,36 +3,19 @@ using System;
 
 public class Player : MonoBehaviour, IDamage
 {
+    [SerializeField] private GameObject _playerDeathParticle;
+
     public event Action<int> coinsAction;
     public event Action deathAction;
+    public event Action winAction;
     public static Player Singleton { get; set; }
-
-    [SerializeField] private GameObject _playerDeathParticle;
     public PlayerData _playerData;
-
     public Weapon _weapon;
 
-    private void Awake()
-    {
-        Singleton = this;
-    }
 
-    private void Start()
-    {
-        _playerData._weaponAmmo = _weapon.AmountAmmo;
-        _playerData._health = 50f;
-    }
-
-    private void Update()
-    {
-        PositionCheck();
-        _playerData._playerPosition = transform.position;
-    }
-
-    public void SetName(string name)
-    {
-        _playerData._name = name;
-    }
+    private void Awake() => Singleton = this;
+    private void Start() => _playerData._health = 50f;
+    private void Update() => PositionCheck();
 
     public void Attack(float angle) => _weapon.Shoot(angle);
     public void GetDamage(float damage)
@@ -44,11 +27,8 @@ public class Player : MonoBehaviour, IDamage
             Death();
         }
     }
-    public void TakeCoins(int score)
-    {
-        //_playerData._score++;
-        coinsAction?.Invoke(score);
-    }
+    public void WinGame() => winAction?.Invoke();
+    public void TakeCoins(int score) => coinsAction?.Invoke(score);
 
     //перевірка позиції персонажа і якщо вона менше -5, то персонаж гине
     private void PositionCheck()
@@ -65,7 +45,6 @@ public class Player : MonoBehaviour, IDamage
         deathAction?.Invoke();
         Destroy(gameObject);
     }
-
 
     //Для взаємодії з іншими обєктами на сцені, які будуть по-різному реагувать
     //на зіткнення з персонажем
@@ -86,6 +65,9 @@ public class PlayerData
     public float _health;
     public int _score;
     public string _name;
-    public int _weaponAmmo = 0;
-    public Vector2 _playerPosition;
+
+    public void SetName(string name)
+    {
+        _name = name;
+    }
 }
