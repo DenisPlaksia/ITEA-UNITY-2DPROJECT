@@ -3,7 +3,7 @@
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private LayerMask _platformsLayerMask;
-    [SerializeField] private LayerMask whatIsLadder;
+    [SerializeField] private LayerMask _whatIsLadder;
     [SerializeField] private float _speed = 0.0f;
     [SerializeField] private float _jumpSpeed = 0.0f;
     [SerializeField] private float _distanceToLadder;
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
 
     private void MovingLadder()
     {
-        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.up, _distanceToLadder, whatIsLadder);
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.up, _distanceToLadder, _whatIsLadder);
 
         if (hitinfo.collider != null)
         {
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Attacking()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
 
             Player.Singleton.Attack(_angle);
@@ -92,7 +92,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerRigidbody.velocity = Vector2.up * _jumpSpeed;
     }
-    private void Moving(Vector2 _direction)
+    private void Moving(Vector2 direction)
     {
         if (_moveX > 0f && _facingRight == false)
         {
@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
             _angle = 180f;
             Flip();
         }
-        transform.Translate(_direction * Time.deltaTime);
+        transform.Translate(direction * Time.deltaTime);
     }
     private void Flip()
     {

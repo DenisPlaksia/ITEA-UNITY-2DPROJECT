@@ -1,4 +1,4 @@
 ﻿interface IDamage
 {
-    void GetDamage(float _damage);
+    void GetDamage(float damage);
 }

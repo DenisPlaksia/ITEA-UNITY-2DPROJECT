@@ -64,7 +64,7 @@ public class PlayerData
 {
     public float _health;
     public int _score;
-    public string _name;
+    public string _name = " ";
 
     public void SetName(string name)
     {

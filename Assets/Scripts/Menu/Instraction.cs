@@ -7,12 +7,15 @@ public class Instraction : MonoBehaviour
 {
 
     private TextMeshProUGUI _instractionText;
-    private string[] _arrayString =
+
+    private List<string> _arrayString = new List<string>()
     {
-        "Press A & D for side moving\tPress  Enter for shooting",
-        "Collect stars on the level",
-        "Dont collision with enemy or other denger object",
-        "Good luck :)",
+        "Hello, dungeon muster,",
+        "Welcome to draw hell",
+        "For moving press A & D \t Press  Enter for shooting",
+        "Collect stars on the level if you want of course\t (P.S its not important)",
+        "Dont collision with enemy or other denger object, you can die",
+        "Good luck, (You can set name in setting) :)" 
     };
     private void Start()
     {
@@ -22,7 +25,7 @@ public class Instraction : MonoBehaviour
 
     private IEnumerator SwichText()
     {
-        for (int i = 0; i < _arrayString.Length; i++)
+        for (int i = 0; i < _arrayString.Count; i++)
         {
             _instractionText.text = _arrayString[i];
             yield return new WaitForSeconds(3f);

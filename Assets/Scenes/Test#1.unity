@@ -1133,8 +1133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d559f3f42e92904582e0aacf2054d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSources:
-  - {fileID: 1897194111}
+  _audioSources: []
 --- !u!1 &82405540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,18 +1217,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1441727948}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &109272212 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7158230125412812628, guid: e8834e588346d2845b4f4644898ea0cc,
-    type: 3}
-  m_PrefabInstance: {fileID: 7080784801313422623}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &121775887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,18 +5716,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &817567714 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5360217970970656590, guid: e8834e588346d2845b4f4644898ea0cc,
-    type: 3}
-  m_PrefabInstance: {fileID: 7080784801313422623}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &833630830
 GameObject:
   m_ObjectHideFlags: 0
@@ -9395,7 +9370,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3435311204895845320}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1245412360
+--- !u!114 &1245412362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12479,6 +12454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7985035096181652290, guid: 3af0e747539bbe6429f265cc05370536,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af0e747539bbe6429f265cc05370536, type: 3}
@@ -16033,6 +16013,11 @@ PrefabInstance:
       propertyPath: _weapon
       value: 
       objectReference: {fileID: 1897194108}
+    - target: {fileID: 1245900951318473601, guid: 266e0c636a7b02f448852f836a8811b1,
+        type: 3}
+      propertyPath: _whatIsLadder.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 1245900951318473604, guid: 266e0c636a7b02f448852f836a8811b1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16139,8 +16124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b6da4cb2346344b99250f7b5fa2ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveRightInput: {fileID: 109272212}
-  _moveLeftInput: {fileID: 817567714}
+  _moveRightInput: {fileID: 0}
+  _moveLeftInput: {fileID: 0}
   _moveShootInput: {fileID: 1582990351}
   _setInputPanel: {fileID: 2939930106586795809}
   _settingMenu: {fileID: 5633529699138033526}

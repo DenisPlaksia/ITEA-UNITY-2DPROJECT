@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundController : MonoBehaviour
 {
-    [SerializeField] private List<AudioSource> audioSources;
+    [SerializeField] private List<AudioSource> _audioSources;
     public static SoundController Singelton { get; private set; }
 
     private void Awake()
@@ -14,9 +14,9 @@ public class SoundController : MonoBehaviour
 
     public void ChangeVolume(float volume)
     {
-        for (int i = 0; i < audioSources.Count; i++)
+        for (int i = 0; i < _audioSources.Count; i++)
         {
-            audioSources[i].volume = volume;
+            _audioSources[i].volume = volume;
         }
     }
 }

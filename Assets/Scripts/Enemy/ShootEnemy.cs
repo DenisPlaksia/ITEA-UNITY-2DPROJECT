@@ -4,7 +4,7 @@ public class ShootEnemy : Enemy
 {
 
     [SerializeField] private float _distanceToPlayer;
-    [SerializeField] private LayerMask isPlayer;
+    [SerializeField] private LayerMask _isPlayer;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
 
@@ -23,7 +23,7 @@ public class ShootEnemy : Enemy
     private void ResetAttack() => _canAttack = false;
     private void PlayerCheck()
     {
-        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, isPlayer);
+        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, _isPlayer);
         if (hitinfo.transform.GetComponent<Player>() != null)
         {
             if (!_canAttack)
