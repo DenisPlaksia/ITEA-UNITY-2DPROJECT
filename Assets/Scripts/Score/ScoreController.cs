@@ -7,7 +7,7 @@ public class ScoreController : MonoBehaviour
 
     private void Start()
     {
-        ShowScore(Player.Singleton._playerData._score);
+        ShowScore(Player.Singleton.playerData.Score);
         Player.Singleton.coinsAction += ShowScore;
     }
 

@@ -7,6 +7,7 @@ public class ShootEnemy : Enemy
     [SerializeField] private LayerMask _isPlayer;
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
+    [SerializeField] private GameObject _key;
 
     private float _timeBetweenAttack = 1f;
     private bool _canAttack = false;
@@ -33,6 +34,12 @@ public class ShootEnemy : Enemy
                 Invoke(nameof(ResetAttack), _timeBetweenAttack);
             }
         }
+    }
+
+    public override void Death()
+    {
+        base.Death();
+        Instantiate(_key, transform.position, Quaternion.identity);
     }
 
     private void Attack()

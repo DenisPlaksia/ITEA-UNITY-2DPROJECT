@@ -16,13 +16,13 @@ public class GameController : MonoBehaviour
 
     private void LoseGame()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _losePanel.SetActive(true);
     }
 
     private void WinGame()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _winPanel.SetActive(true);
     }
 }

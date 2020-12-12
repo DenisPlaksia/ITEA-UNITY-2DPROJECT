@@ -18,7 +18,7 @@ public class GameSaveLoadController : MonoBehaviour
 
     public void Save()
     {
-        var jsonObject = JsonUtility.ToJson(Player.Singleton._playerData, true);
+        var jsonObject = JsonUtility.ToJson(Player.Singleton.playerData, true);
 
         PlayerPrefs.SetString(PlayerDataKey, jsonObject);
 
@@ -39,8 +39,8 @@ public class GameSaveLoadController : MonoBehaviour
 
         jsonObject = PlayerPrefs.GetString(PlayerDataKey);
 
-        Player.Singleton._playerData = JsonUtility.FromJson<PlayerData>(jsonObject);
-        Player.Singleton.TakeCoins(Player.Singleton._playerData._score);
+        Player.Singleton.playerData = JsonUtility.FromJson<PlayerData>(jsonObject);
+        Player.Singleton.TakeCoins(Player.Singleton.playerData.Score);
         Debug.Log($"Load PlayerData from path: {PlayerDataFilePath}, playerData: {jsonObject}");
     }
 }

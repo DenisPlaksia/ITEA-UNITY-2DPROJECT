@@ -23,7 +23,7 @@ public class SetInputController : MonoBehaviour
 
     private void SettingBack()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _setInputPanel.SetActive(false);
         _settingMenu.SetActive(true);
     }

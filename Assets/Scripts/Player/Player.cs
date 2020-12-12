@@ -9,20 +9,21 @@ public class Player : MonoBehaviour, IDamage
     public event Action deathAction;
     public event Action winAction;
     public static Player Singleton { get; set; }
-    public PlayerData _playerData;
-    public Weapon _weapon;
+    public bool HasKey { get; set; } = false;
+    public PlayerData playerData;
+    public Weapon weapon;
 
 
     private void Awake() => Singleton = this;
-    private void Start() => _playerData._health = 50f;
+    private void Start() => playerData.Health = 50f;
     private void Update() => PositionCheck();
 
-    public void Attack(float angle) => _weapon.Shoot(angle);
+    public void Attack(float angle) => weapon.Shoot(angle);
     public void GetDamage(float damage)
     {
-        _playerData._health -= damage;
+        playerData.Health -= damage;
         
-        if (_playerData._health <= 0)
+        if (playerData.Health <= 0)
         {
             Death();
         }
@@ -62,12 +63,12 @@ public class Player : MonoBehaviour, IDamage
 [Serializable]
 public class PlayerData
 {
-    public float _health;
-    public int _score;
-    public string _name = " ";
+    public float Health;
+    public int Score;
+    public string Name = "";
 
     public void SetName(string name)
     {
-        _name = name;
+        Name = name;
     }
 }

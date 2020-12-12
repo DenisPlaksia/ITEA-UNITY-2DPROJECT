@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
     private bool _canClimbing;
 
 
-    public static bool _canMove = false;
+    public static bool canMove = false;
     private void Start()
     {
-        _canMove = false;
+        canMove = false;
         _boxCollider2D = GetComponent<BoxCollider2D>();
         _playerRigidbody = GetComponent<Rigidbody2D>();
         _menuController = FindObjectOfType<MenuController>();
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (_canMove)
+        if (canMove)
         {
 
             _moveX = _speed * Input.GetAxis("Horizontal");
@@ -87,7 +87,6 @@ public class PlayerController : MonoBehaviour
             Player.Singleton.Attack(_angle);
         }
     }
-
     private void Jumping()
     {
         _playerRigidbody.velocity = Vector2.up * _jumpSpeed;

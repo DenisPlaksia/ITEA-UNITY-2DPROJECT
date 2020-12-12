@@ -25,19 +25,19 @@ public class SettingController : MonoBehaviour
 
     private void OnNameChanged()
     {
-        Player.Singleton._playerData.SetName(_nameInputField.text);
+        Player.Singleton.playerData.SetName(_nameInputField.text);
     }
 
     private void MenuBack()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _settingMenu.SetActive(false);
         _panelMenu.SetActive(true);
     }
 
     private void OpenInputWindow()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _settingMenu.SetActive(false);
         _setInputPanel.SetActive(true);
     }

@@ -4,8 +4,8 @@ public class ScorePoint : MonoBehaviour, IInteractable
 {
     public void Interact()
     {
-        Player.Singleton._playerData._score++;
-        Player.Singleton.TakeCoins(Player.Singleton._playerData._score);
-        Destroy(gameObject);
+        Player.Singleton.playerData.Score++;
+        Player.Singleton.TakeCoins(Player.Singleton.playerData.Score);
+        Destroy(gameObject,0.01f);
     }
 }

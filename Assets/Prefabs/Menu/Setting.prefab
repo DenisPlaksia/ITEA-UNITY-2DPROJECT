@@ -314,7 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635212770210665850}
   m_Layer: 5
-  m_Name: PlayGame
+  m_Name: SettingGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1856,7 +1856,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Write name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e71d341cf0956144fae996f7adb52ba8, type: 2}
   m_sharedMaterial: {fileID: 1284916499576893082, guid: e71d341cf0956144fae996f7adb52ba8,

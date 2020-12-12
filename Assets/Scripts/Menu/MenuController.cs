@@ -36,7 +36,7 @@ public class MenuController : MonoBehaviour
 
     private void SettingOn()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _settingMenu.SetActive(true);
         _panelMenu.SetActive(false);
     }
@@ -49,14 +49,14 @@ public class MenuController : MonoBehaviour
 
     public void MenuOpen()
     {
-        PlayerController._canMove = false;
+        PlayerController.canMove = false;
         _panelMenu.SetActive(true);
         _isMenuOpen = !_isMenuOpen;
     }
 
     public void CloseMenu()
     {
-        PlayerController._canMove = true;
+        PlayerController.canMove = true;
         _panelMenu.SetActive(false);
         _isMenuOpen = !_isMenuOpen;
     }
