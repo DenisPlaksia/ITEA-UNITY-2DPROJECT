@@ -15,6 +15,7 @@ public class Instraction : MonoBehaviour
         "For moving press A & D \t Press  Enter for shooting",
         "Press W for moving on ladder",
         "Collect stars on the level if you want of course\t (P.S its not important)",
+        "Kill boss to get some suprise",
         "Dont collision with enemy or other denger object, you can die",
         "Good luck, (You can set name in setting) :)" 
     };

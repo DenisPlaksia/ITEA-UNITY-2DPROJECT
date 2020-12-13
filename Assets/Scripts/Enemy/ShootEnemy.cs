@@ -8,8 +8,8 @@ public class ShootEnemy : Enemy
     [SerializeField] private GameObject _bullet;
     [SerializeField] private GameObject _targetPoint;
     [SerializeField] private GameObject _key;
-
-    private float _timeBetweenAttack = 1f;
+    [SerializeField] private GameObject _borderObject;
+    [SerializeField] private float _timeBetweenAttack = 1.5f;
     private bool _canAttack = false;
 
     private void Start()
@@ -24,22 +24,31 @@ public class ShootEnemy : Enemy
     private void ResetAttack() => _canAttack = false;
     private void PlayerCheck()
     {
-        RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, _isPlayer);
-        if (hitinfo.transform.GetComponent<Player>() != null)
+        try
         {
-            if (!_canAttack)
+            RaycastHit2D hitinfo = Physics2D.Raycast(transform.position, Vector2.left, _distanceToPlayer, _isPlayer);
+            if (hitinfo.transform.GetComponent<Player>() != null)
             {
-                _canAttack = true;
-                Attack();
-                Invoke(nameof(ResetAttack), _timeBetweenAttack);
+                if (!_canAttack)
+                {
+                    _canAttack = true;
+                    Attack();
+                    Invoke(nameof(ResetAttack), _timeBetweenAttack);
+                }
             }
         }
+        catch (System.Exception)
+        {
+
+        }
+
     }
 
     public override void Death()
     {
         base.Death();
         Instantiate(_key, transform.position, Quaternion.identity);
+        Destroy(_borderObject);
     }
 
     private void Attack()

@@ -32,7 +32,7 @@ RectTransform:
   m_Children:
   - {fileID: 225981223695865027}
   m_Father: {fileID: 5633529697481995143}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -285,7 +285,7 @@ RectTransform:
   m_Children:
   - {fileID: 6824237845004121596}
   m_Father: {fileID: 5633529697481995143}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -705,7 +705,7 @@ RectTransform:
   m_Children:
   - {fileID: 2360908108400644930}
   m_Father: {fileID: 5633529697481995143}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1012,6 +1012,7 @@ GameObject:
   - component: {fileID: 5895356189367664227}
   - component: {fileID: 3565845763265922575}
   - component: {fileID: 7985035096181652290}
+  - component: {fileID: 940026471}
   m_Layer: 0
   m_Name: InstructionText
   m_TagString: Untagged
@@ -1065,9 +1066,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press A & D for side moving.
-
-    Press  Enter for shooting'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1136,6 +1135,18 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &940026471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938981575372525475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 320bc80e0bb08654bb3ad65dfb75d197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5440872177468832215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5633529697481995143}
   m_Layer: 5
-  m_Name: Game
+  m_Name: PlayGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,10 +1309,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5324632776398130450}
+  - {fileID: 51017800101030609}
   - {fileID: 2536545470712066389}
   - {fileID: 6351025380061991009}
   - {fileID: 1427465298879982229}
-  - {fileID: 51017800101030609}
   m_Father: {fileID: 5633529699031212485}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1420,7 +1431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -103}
+  m_AnchoredPosition: {x: 0, y: -108}
   m_SizeDelta: {x: 1200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5633529698070151851
@@ -1478,8 +1489,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 87.34
-  m_fontSizeBase: 87.34
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1514,7 +1525,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 38.615906, z: 641.0006, w: -76.920105}
+  m_margin: {x: 0, y: 13.158569, z: 641.0006, w: -84.76233}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1665,7 +1676,7 @@ RectTransform:
   m_Children:
   - {fileID: 5576337404459953979}
   m_Father: {fileID: 5633529697481995143}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1906,7 +1917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -55, y: 33}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!1 &8583470203831593043
@@ -2077,7 +2088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -52}
+  m_AnchoredPosition: {x: 0, y: -19}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9216103131929077413
@@ -2107,10 +2118,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CubeShootRunner
+  m_text: ShootRunner
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e71d341cf0956144fae996f7adb52ba8, type: 2}
-  m_sharedMaterial: {fileID: 1284916499576893082, guid: e71d341cf0956144fae996f7adb52ba8,
+  m_fontAsset: {fileID: 11400000, guid: 1b6d750bac482134bab4c0f853808058, type: 2}
+  m_sharedMaterial: {fileID: -2709150023759182351, guid: 1b6d750bac482134bab4c0f853808058,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2135,8 +2146,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 129.9
-  m_fontSizeBase: 129.9
+  m_fontSize: 108.81
+  m_fontSizeBase: 108.81
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2171,7 +2182,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -549.428, y: 0, z: -553.754, w: 0}
+  m_margin: {x: -549.428, y: 0, z: -553.754, w: -32.68109}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

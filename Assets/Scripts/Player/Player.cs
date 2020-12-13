@@ -15,7 +15,7 @@ public class Player : MonoBehaviour, IDamage
 
 
     private void Awake() => Singleton = this;
-    private void Start() => playerData.Health = 50f;
+    private void Start() => playerData.Health = 100f;
     private void Update() => PositionCheck();
 
     public void Attack(float angle) => weapon.Shoot(angle);
