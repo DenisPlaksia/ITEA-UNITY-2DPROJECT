@@ -20,9 +20,9 @@ public class TimeShower : MonoBehaviour
 
     private void ShowTime()
     {
-        _timeShower.text = Time.time.ToString();
+        _timeShower.text = Time.timeSinceLevelLoad.ToString();
         NewRecordCheck();
-        PlayerPrefs.SetFloat(TimeCount, Time.time);
+        PlayerPrefs.SetFloat(TimeCount, Time.timeSinceLevelLoad);
     }
 
     private void RemoveRecord()
@@ -35,7 +35,7 @@ public class TimeShower : MonoBehaviour
 
     private void NewRecordCheck()
     {
-        if(Time.time < PlayerPrefs.GetFloat(TimeCount))
+        if(Time.timeSinceLevelLoad < PlayerPrefs.GetFloat(TimeCount))
         {
             _newRecordShow.text = "New Record!!!!";
         }
